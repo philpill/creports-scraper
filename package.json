@@ -1,0 +1,26 @@
+{
+  "name": "creports-scraper",
+  "description": "Graphical visualisation of violence reported around the world",
+  "version": "0.2.5",
+  "private": true,
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "glob": "^7.0.3",
+    "lodash": "^4.13.1",
+    "normalize.css": "^4.1.1",
+    "q": "^2.0.3",
+    "request": "^2.72.0",
+    "sequelize": "^3.23.3",
+    "topojson": "^1.6.26",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  }
+}
